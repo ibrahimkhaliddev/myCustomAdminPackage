@@ -21,5 +21,11 @@
     "phpunit/phpunit": "^9"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/MianIbrahimKhalid/myCustomAdminPackage"
+    }
+  ]
 }
