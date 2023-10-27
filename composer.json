@@ -15,23 +15,9 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "adminpackage/my-custom-package": "dev-main"
+    "php": "^8.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/MianIbrahimKhalid/myCustomAdminPackage"
-    }
-  ],
-  "extra": {
-    "branch-alias": {
-      "dev-main": "dev-master"
-    }
   }
 }
