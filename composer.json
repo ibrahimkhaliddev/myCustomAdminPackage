@@ -1,17 +1,25 @@
 {
-    "name": "adminpackage/my-custom-package",
-    "autoload": {
+  "name": "adminpackage/my-custom-package",
+  "description": "A description of your package.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
       "psr-4": {
-        "MyCustomPackage\\": "src/"
+          "MyCustomPackage\\": "src/"
       }
-    },
-    "authors": [
+  },
+  "authors": [
       {
-        "name": "MianIbrahimKhalid",
-        "email": "ibrahimkhalid.chs@gmail.com"
+          "name": "MianIbrahimKhalid",
+          "email": "ibrahimkhalid.chs@gmail.com"
       }
-    ],
-    "require": {
-        "my-custom-package": "^1.0"
-    }
-  }
+  ],
+  "require": {
+      "php": "^7.3"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
