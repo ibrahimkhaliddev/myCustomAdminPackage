@@ -1,0 +1,17 @@
+{
+    "name": "user/my-custom-package",
+    "autoload": {
+      "psr-4": {
+        "MyCustomPackage\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "MianIbrahimKhalid",
+        "email": "ibrahimkhalid.chs@gmail.com"
+      }
+    ],
+    "require": {
+        "my-custom-package": "^1.0"
+    }
+  }
