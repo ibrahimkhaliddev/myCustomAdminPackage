@@ -1,5 +1,5 @@
 {
-    "name": "user/my-custom-package",
+    "name": "adminpackage/my-custom-package",
     "autoload": {
       "psr-4": {
         "MyCustomPackage\\": "src/"
