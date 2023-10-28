@@ -24,10 +24,5 @@
       "type": "vcs",
       "url": "https://github.com/MianIbrahimKhalid/myCustomAdminPackage"
     }
-  ],
-  "extra": {
-    "branch-alias": {
-      "dev-main": "dev-master"
-    }
-  }
+  ]
 }
