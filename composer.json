@@ -5,9 +5,9 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "adminpackage\\mycustompackage\\": "src/"
+      "MyPackage\\": "src/"
     }
-  },
+},
   "authors": [
     {
       "name": "MianIbrahimKhalid",
@@ -20,12 +20,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
-    "adminpackage": {
-      "providers": [
-        "adminpackage\\mycustompackage\\src\\MyPackageServiceProvider"
-      ]
+    "laravel": {
+        "providers": [
+            "MyPackage\\Providers\\MyPackageServiceProvider"
+        ]
     }
-  },
+},
   "repositories": [
     {
       "type": "vcs",
