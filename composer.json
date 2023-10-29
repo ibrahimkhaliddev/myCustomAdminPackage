@@ -1,11 +1,11 @@
 {
-  "name": "adminpackage/my-custom-package",
+  "name": "adminpackage/mycustompackage",
   "description": "A description of your package.",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "adminpackage\\my-custom-package\\": "src/"
+      "adminpackage\\mycustompackage\\": "src/"
     }
   },
   "authors": [
@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "adminpackage\\my-custom-package\\src\\MyPackageServiceProvider"
+        "adminpackage\\mycustompackage\\src\\MyPackageServiceProvider"
       ]
     }
   },
