@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "adminpackage\\my-custom-package\\MyPackageServiceProvider"
+        "adminpackage\\my-custom-package\\src\\MyPackageServiceProvider"
       ]
     }
   },
