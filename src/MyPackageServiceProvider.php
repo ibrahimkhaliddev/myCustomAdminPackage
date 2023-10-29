@@ -1,6 +1,6 @@
 <?php
 
-namespace AdminPackage\MyCustomPackage\Src;
+namespace MyPackage\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

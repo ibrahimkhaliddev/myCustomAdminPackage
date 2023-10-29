@@ -20,7 +20,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
-    "laravel": {
+    "adminpackage": {
       "providers": [
         "adminpackage\\mycustompackage\\src\\MyPackageServiceProvider"
       ]
