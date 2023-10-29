@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'adminpackage\\mycustompackage\\' => array($baseDir . '/src'),
+    'MyPackage\\' => array($baseDir . '/src'),
 );
