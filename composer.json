@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "MyCustomPackage\\": "src/"
+      "adminpackage\\my-custom-package\\": "src/"
     }
   },
   "authors": [
@@ -19,6 +19,13 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "adminpackage\\my-custom-package\\JetstreamServiceProvider"
+      ]
+    }
+  },
   "repositories": [
     {
       "type": "vcs",
