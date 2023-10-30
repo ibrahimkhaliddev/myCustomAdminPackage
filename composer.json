@@ -1,11 +1,11 @@
 {
-  "name": "panel/adminpackage",
+  "name": "panelist/adminpackage",
   "description": "A description of your package.",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Panel\\AdminPackage\\": "src/"
+      "Panelist\\AdminPackage\\": "src/"
     }
 },
   "authors": [
@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
         "providers": [
-          "Panel\\AdminPackage\\MyPackageServiceProvider"
+          "Panelist\\AdminPackage\\MyPackageServiceProvider"
         ]
     }
 },

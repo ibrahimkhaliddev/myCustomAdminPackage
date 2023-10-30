@@ -1,6 +1,6 @@
 <?php
 
-namespace Panel\AdminPackage;
+namespace Panelist\AdminPackage;
 
 use Illuminate\Support\ServiceProvider;
 
