@@ -1,11 +1,11 @@
 {
-  "name": "adminpackage/mycustompackage",
+  "name": "laravel/adminpackage",
   "description": "A description of your package.",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "MyPackage\\": "src/"
+      "Laravel\\AdminPackage\\": "src/"
     }
 },
   "authors": [
@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
         "providers": [
-            "MyPackage\\Providers\\MyPackageServiceProvider"
+          "Laravel\\AdminPackage\\MyPackageServiceProvider"
         ]
     }
 },
