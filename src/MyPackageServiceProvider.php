@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\AdminPackage;
+namespace Panel\AdminPackage;
 
 use Illuminate\Support\ServiceProvider;
 

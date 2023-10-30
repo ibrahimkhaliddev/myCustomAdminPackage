@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Laravel\\AdminPackage\\' => array($baseDir . '/src'),
+    'Panel\\AdminPackage\\' => array($baseDir . '/src'),
 );
